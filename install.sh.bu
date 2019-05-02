@@ -7,7 +7,7 @@ SERVICE_TENANT=service
 # this domain name will be used for project and user
 SERVICE_DOMAIN_NAME=Default
 EC2API_PORT=8788
-CONNECTION="mysql+pymysql://ec2api:ec2api@controller/ec2api?charset=utf8"
+CONNECTION="mysql+pymysql://ec2api:ec2api@127.0.0.1/ec2api?charset=utf8"
 LOG_DIR=/var/log/ec2api
 CONF_DIR=/etc/ec2api
 NOVA_CONF=/etc/nova/nova.conf

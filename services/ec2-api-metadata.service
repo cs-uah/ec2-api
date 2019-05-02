@@ -1,0 +1,10 @@
+[Unit]
+Description=EC2-API for AWS
+
+[Service]
+#User=root
+ExecStart=/usr/local/bin/ec2-api-metadata
+WorkingDirectory=/root/ec2-api/
+
+[Install]
+WantedBy=multi-user.target
